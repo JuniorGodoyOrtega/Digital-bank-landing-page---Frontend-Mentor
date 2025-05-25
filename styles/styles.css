@@ -11,3 +11,21 @@
     --font-size: 18px;
     --font-family: 'Public Sans', sans-serif;
 }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
